@@ -1,11 +1,12 @@
 import './App.css';
+import ContactUsForm from './forms/ContactForm';
 // import SignInForm from './forms/SignInForm';
-import SignInFormWithValidation from './forms/SignInFormWithValidation';
+// import SignInFormWithValidation from './forms/SignInFormWithValidation';
 
 function App() {
   return (
     <div className="container-fluid">
-      <SignInFormWithValidation />
+      <ContactUsForm />
     </div>
   );
 }
